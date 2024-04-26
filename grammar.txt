@@ -1,0 +1,39 @@
+# CNF1
+S_0 -> SS | XZ | YZ | ε
+S -> SS | XZ | YZ
+X -> YS
+Y -> (
+Z -> )
+
+# CNF2
+S -> MC | XB | AN | YC | a | c | ε
+M -> MC | XB | c
+N -> AN | YC | a
+P -> XB
+R -> YC
+X -> AP | a
+Y -> BR | b
+A -> a
+B -> b
+C -> c
+
+# CNF3
+S -> MA_0 | NB_0 | C_0X | # | XY | AC_0 | XA | ZB | YB
+A -> MA_0 | NB_0 | C_0X | # 
+B -> A_0B | C_0B | B_0B | a | # | b
+X -> BC_0 | #
+Y -> AC_0
+M -> A_0A
+N -> B_0A
+Z -> XY
+A_0 -> a
+B_0 -> b
+C_0 -> #
+
+# CNF4
+S -> TT | XY | #
+T -> ZT | TZ | #
+U -> XY | #
+X -> ZU
+Y -> ZZ
+Z -> 0
