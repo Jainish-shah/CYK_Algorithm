@@ -10,9 +10,10 @@ To run the program, follow these steps:
 5. The program will output the first column of the CYK table
 and indicate whether the input string belongs to the grammar.
 
-#Note
-● Make sure the grammar.txt file is in the same directory as the homework4.py file.
-● Select the question by typing the full option (e.g. "CNF1") to ensure correct functionality.
-Files
-● cyk.py: The main implementation of the CYK algorithm.
-● grammar.txt: The context-free grammar file with production rules in CNF.
+# Note
+- Make sure the grammar.txt file is in the same directory as the homework4.py file.
+- Select the question by typing the full option (e.g. "CNF1") to ensure correct functionality.
+
+# Files
+- cyk.py: The main implementation of the CYK algorithm.
+- grammar.txt: The context-free grammar file with production rules in CNF.
